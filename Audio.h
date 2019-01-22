@@ -92,7 +92,8 @@
 #include "filter_variable.h"
 #include "input_adcs.h"
 
-#if I2S_INTERFACES_COUNT > 0
+//#if I2S_INTERFACES_COUNT > 0
+#if 0
 #include "input_i2s.h"
 #endif
 
@@ -105,7 +106,8 @@
 #include "mixer.h"
 #include "output_dacs.h"
 
-#if I2S_INTERFACES_COUNT > 0
+//#if I2S_INTERFACES_COUNT > 0
+#if 0
 #include "output_i2s.h"
 #endif
 
