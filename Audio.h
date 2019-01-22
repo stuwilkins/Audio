@@ -121,9 +121,13 @@
 #include "play_memory.h"
 #include "play_queue.h"
 
+#ifdef WAV
+
 #include "play_sd_raw.h"
 #include "play_sd_wav.h"
 #include "play_qspi_wav.h"
+
+#endif
 
 #if 0
 #include "play_serialflash_raw.h"
