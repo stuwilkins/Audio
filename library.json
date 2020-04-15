@@ -22,11 +22,14 @@
     "type": "git",
     "url": "https://github.com/PaulStoffregen/Audio"
   },
-  "dependencies":
+  "dependencies": [
   {
     "name": "SerialFlash",
     "frameworks": "arduino"
-  },
+  },{ 
+	"name": "Teensy Core Libraries for Arduino"
+  }
+  ],
   "examples": [
     "examples/*/*.ino",
     "examples/*/*/*.ino"
